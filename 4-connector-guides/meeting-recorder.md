@@ -6,7 +6,7 @@ best line in the pre-standup brief: what you promised and never ticketed.
 ## Setup (Granola)
 
 1. Install Granola and connect your calendar so it joins meetings automatically.
-2. Claude Desktop → **Settings → Connectors** → add Granola → authorise.
+2. **Settings → Connectors** on your Claude account → add Granola → authorise.
 3. Verify: `What did I commit to in my meetings this week?`
 
 ## If you use something else

@@ -5,7 +5,8 @@ The spine of Week 3. Read the board, cross-check the PRD, write stories back.
 ## Setup
 
 1. Accept the invite to the cohort instance (or use your own work account).
-2. Claude Desktop → **Settings → Connectors → Atlassian** → sign in with that account.
+2. **Settings → Connectors → Atlassian** on your Claude account
+   (`claude.ai/customize/connectors`) → sign in with that account.
 3. Approve the scopes. Read access is enough to start; you need write for the story-creation
    exercise.
 

@@ -1,0 +1,19 @@
+# Your own work and your real data. See my-system/README.md.
+my-system/*
+!my-system/README.md
+
+# Local tool state
+.claude/settings.local.json
+.claude/scheduled-tasks/
+
+# Secrets — never commit these
+.env
+.env.*
+*.pem
+*.key
+
+# macOS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

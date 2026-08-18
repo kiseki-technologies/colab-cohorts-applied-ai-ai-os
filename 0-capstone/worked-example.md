@@ -49,18 +49,23 @@ Until then the feedback synthesiser runs on a manual export, which is fine for t
 
 ### Scheduled (runs without me)
 
-| When | What it does | Output lands where |
-|---|---|---|
-| Weekdays 08:00 | Pre-standup brief: what moved, what's stuck, and anything I committed to in yesterday's calls that has no ticket | `standup-brief.md` in my project folder |
-| Fridays 15:00 | Assembles the week — board movement, decisions from meetings, risks — and drafts my stakeholder update in my format | Draft file, waiting for me |
-| Mondays 07:00 | Batches the week's customer feedback into themes with counts, flags any theme that's new | `feedback-themes.md` |
+| When | Runs in | What it does | Output lands where |
+|---|---|---|---|
+| Weekdays 08:00 | Cowork scheduled task, folder attached | Pre-standup brief: what moved, what's stuck, and anything I committed to in yesterday's calls that has no ticket | `my-system/standup-brief.md` |
+| Fridays 15:00 | Cowork scheduled task, cloud | Assembles the week — board movement, decisions from meetings, risks — and drafts my stakeholder update in my format | A Google Doc I open on my phone. Nothing sends. |
+| Mondays 07:00 | Cowork scheduled task, cloud | Batches the week's customer feedback into themes with counts, flags any theme that's new | Same doc, second tab |
 
 ### Triggered (I start it)
 
-| Trigger | What it does |
-|---|---|
-| After a customer call | Reads the transcript, extracts decisions and actions, drafts candidate Jira tickets with acceptance criteria for my approval |
-| Before a stakeholder 1:1 | One-pager: what we last agreed, what's moved since, what I need from them |
+| Trigger | Runs in | What it does |
+|---|---|---|
+| After a customer call | Cowork, saved as a manual task | Reads the transcript, extracts decisions and actions, drafts candidate Jira tickets with acceptance criteria for my approval |
+| Before a stakeholder 1:1 | Cowork, saved as a manual task | One-pager: what we last agreed, what's moved since, what I need from them |
+
+**Why two different surfaces:** the standup brief has to be in the folder, because that's where
+I keep the running history and it's what I scroll back through on a Monday. The Friday update
+doesn't — I want to read it on the train, so it goes to a Doc and the task runs in the cloud
+whether my laptop is open or not.
 
 ---
 
@@ -85,7 +90,8 @@ about it is visible to anyone else, so it runs unattended without review.
 
 ## 7. What's already running
 
-- [x] v0.3 pre-standup brief — running since Wednesday, against my real board
+- [x] v0.3 pre-standup brief — running since Wednesday as a Cowork scheduled task, against my
+      real board
 - [ ] Friday update drafter — prompt written, not yet scheduled
 - [ ] Feedback synthesiser — blocked on Slack approval
 
@@ -102,6 +108,9 @@ forgotten. That single line justified the whole thing.
 - I don't want ticket drafts cluttering the real backlog. Plan: they go to a separate
   "proposed" project and I move them across after review.
 - Slack approval may not land. Mitigation: manual export weekly; it's 5 minutes.
+- The standup brief needs my folder, which means it only fires when my laptop is awake. It
+  missed Tuesday because I was travelling. If that keeps happening I'll move it to the cloud
+  and give up the running history — worth it for a brief that actually arrives.
 
 ---
 

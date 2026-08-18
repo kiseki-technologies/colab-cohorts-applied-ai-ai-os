@@ -1,8 +1,11 @@
 # Connector guides
 
-Connectors are how Claude reads and writes your real tools. In Claude Desktop they live under
-**Settings → Connectors**. Claude Code configures MCP servers separately — see
-`github-and-claude-code.md`.
+Connectors are how Claude reads and writes your real tools. You add them once on your Claude
+account — **Settings → Connectors** (`claude.ai/customize/connectors`) — and both **Cowork** and
+**Claude Code** can then use them. One connection, both surfaces.
+
+See `github-and-claude-code.md` for the one exception — MCP servers you add locally in Claude
+Code stay local — and `SETUP.md` in the root of this kit for the order to do things in.
 
 | Guide | Covers |
 |---|---|

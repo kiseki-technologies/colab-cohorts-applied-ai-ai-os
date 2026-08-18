@@ -24,13 +24,21 @@ in the first week.
 
 `_recipe-template.md` is for writing up your own — bring one to Week 4.
 
+**`scheduling.md` is how you make any of these repeat** — Cowork scheduled tasks, Claude Code
+routines, local scheduled tasks, and which one each recipe belongs in.
+
 ---
 
 ## How to run any of these
 
 1. Copy the prompt, fill the `[BRACKETS]`
-2. **Run it manually once.** Read the output. Fix the obvious problems.
-3. Only then schedule it
+2. **Run it manually once**, in Cowork or Claude Code. Read the output. Fix the obvious
+   problems.
+3. Only then schedule it — `scheduling.md` covers the four ways, and which to pick
 4. Read the first three unattended runs properly. Change one thing at a time.
 
 Step 2 is the one people skip, and it's why their first automation disappoints them.
+
+**Decide where the output lands before you schedule anything.** A recipe that says "write to
+`standup-brief.md`" needs a folder to write to, and a cloud scheduled task does not have one
+by default. `scheduling.md` explains the three honest options.

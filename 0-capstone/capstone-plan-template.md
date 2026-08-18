@@ -53,18 +53,23 @@ integration is fine; name it and say what you'd mock in the meantime.]
 
 ### Scheduled (runs without me)
 
-| When | What it does | Output lands where |
-|---|---|---|
-| [Weekdays 08:00] | [pre-standup brief: moved, stuck, unticketed] | [standup-brief.md] |
-| [Fridays 15:00] | [drafts the stakeholder update] | [draft file / email draft] |
-| | | |
+*"Runs in" means the surface it's scheduled on — a Cowork scheduled task, a Claude Code
+routine, or a local scheduled task. If you don't know yet, read
+`5-automation-recipes/scheduling.md`; the choice decides what it can reach and where the
+output can land.*
+
+| When | Runs in | What it does | Output lands where |
+|---|---|---|---|
+| [Weekdays 08:00] | [Cowork scheduled task] | [pre-standup brief: moved, stuck, unticketed] | [standup-brief.md] |
+| [Fridays 15:00] | [Cowork scheduled task] | [drafts the stakeholder update] | [draft file / email draft] |
+| | | | |
 
 ### Triggered (I start it, it saves me the assembly)
 
-| Trigger | What it does |
-|---|---|
-| [After a customer call] | [extracts actions, drafts candidate tickets for approval] |
-| | |
+| Trigger | Runs in | What it does |
+|---|---|---|
+| [After a customer call] | [Cowork, saved as a manual task] | [extracts actions, drafts candidate tickets for approval] |
+| | | |
 
 ---
 
@@ -99,7 +104,7 @@ nobody else sees it"]
 *Be honest. "Nothing yet" is an acceptable answer in Week 3 — but one running thing is worth
 ten planned ones.*
 
-- [ ] v0.3 scheduled task running against my own data — since [DATE]
+- [ ] v0.3 scheduled task running against my own data — since [DATE], in [COWORK / CLAUDE CODE]
 - [ ] [other component] — status
 - [ ] [other component] — status
 
